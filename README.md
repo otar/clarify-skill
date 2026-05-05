@@ -12,7 +12,7 @@ When the cost of getting the work wrong is higher than the cost of a few extra m
 
 ```bash
 /plugin marketplace add otar/clarify-plugin
-/plugin install clarify@clarify
+/plugin install clarify@otar
 ```
 
 Once accepted into the official Anthropic marketplace:
