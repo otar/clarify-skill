@@ -4,7 +4,6 @@ description: Ask clarifying questions in rounds until the task is unambiguous, b
 version: 1.0.0
 license: MIT
 compatibility: claude-code
-disable-model-invocation: true
 ---
 
 # Clarify
