@@ -1,9 +1,7 @@
 ---
 name: clarify
 description: Ask clarifying questions in rounds until the task is unambiguous, before producing any code, research, or other output. Manually invoked only via slash command. Useful when the cost of getting the work wrong is higher than the cost of a few extra messages. Applies to coding, research, design, writing, refactoring, and analysis.
-version: 1.0.0
-license: MIT
-compatibility: claude-code
+disable-model-invocation: true
 ---
 
 # Clarify
