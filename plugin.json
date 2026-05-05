@@ -7,8 +7,8 @@
     "email": "otar@hey.com",
     "url": "https://otar.me"
   },
-  "homepage": "https://github.com/otar/clarify-plugin",
-  "repository": "https://github.com/otar/clarify-plugin",
+  "homepage": "https://github.com/otar/clarify-skill",
+  "repository": "https://github.com/otar/clarify-skill",
   "license": "MIT",
   "keywords": ["clarification", "planning", "workflow", "questions", "skill"]
 }
