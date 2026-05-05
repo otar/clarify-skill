@@ -1,12 +1,12 @@
 # clarify
 
-A Claude Code plugin that adds a `/clarify` skill: a forced clarification loop that asks questions in rounds until ambiguity is resolved, before any code, research, or output is produced.
+A Claude Code plugin that adds a `/clarify` skill. It keeps asking clarifying questions until your request is unambiguous, before any work starts.
 
 The skill is manually invoked. It will not auto-trigger, even when the description matches your prompt.
 
 ## When to use
 
-When the cost of getting the work wrong is higher than the cost of a few extra messages. Applies to coding, research, design, writing, refactoring, and analysis.
+When the cost of getting the work wrong is higher than the cost of a few extra messages. Useful for coding, writing, or any task where the brief is fuzzy.
 
 ## Install
 
@@ -27,7 +27,7 @@ Once accepted into the official Anthropic marketplace:
 /clarify:clarify add rate limiting to my Laravel API
 ```
 
-Claude reads the request, separates what's stated, what's inferable, and what's genuinely ambiguous, then asks 2–4 high-leverage questions. After your answers it either asks another round or, if everything's clear, proceeds with the work.
+Claude reads the request, works out what's actually unclear (versus what's stated or reasonable to assume), and asks 2–4 questions. Once you answer, it either follows up with another round or gets on with the work.
 
 ## Example
 
@@ -41,8 +41,12 @@ Claude reads the request, separates what's stated, what's inferable, and what's 
 
 ## Why a skill instead of typing the same prompt every time
 
-Two practical reasons. One, the protocol stays consistent regardless of how the request is phrased; you don't end up with a different version of the workflow each time you write it from memory. Two, with `disable-model-invocation: true` set in the frontmatter, Claude won't trigger this on routine requests by accident. It sits behind the slash command and runs only when called.
+A couple of reasons. The skill behaves the same way every time, so you don't end up with a slightly different workflow depending on how you phrased the prompt that day. And with `disable-model-invocation: true` in the frontmatter, Claude won't trigger it on routine requests by accident; it only runs when you call it.
+
+## Privacy
+
+The plugin runs locally and collects nothing. See [PRIVACY.md](PRIVACY.md).
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
