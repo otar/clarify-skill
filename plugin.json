@@ -1,0 +1,14 @@
+{
+  "name": "clarify",
+  "version": "1.0.0",
+  "description": "Adds a /clarify skill that asks clarifying questions in rounds until the task is unambiguous, before any code or output. Manually invoked only, never auto-triggers.",
+  "author": {
+    "name": "Otar Chekurishvili",
+    "email": "otar@hey.com",
+    "url": "https://otar.me"
+  },
+  "homepage": "https://github.com/otar/clarify-plugin",
+  "repository": "https://github.com/otar/clarify-plugin",
+  "license": "MIT",
+  "keywords": ["clarification", "planning", "workflow", "questions", "skill"]
+}
