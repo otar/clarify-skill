@@ -9,7 +9,7 @@
       "name": "clarify",
       "source": "./",
       "description": "Asks clarifying questions in rounds until the task is unambiguous, before any code or output. Manually invoked only.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "productivity",
       "keywords": ["clarification", "planning", "workflow"]
     }
