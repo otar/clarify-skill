@@ -15,12 +15,6 @@ When the cost of getting the work wrong is higher than the cost of a few extra m
 /plugin install clarify@otar
 ```
 
-Once accepted into the official Anthropic marketplace:
-
-```bash
-/plugin install clarify@claude-plugins-official
-```
-
 ## Use
 
 ```
